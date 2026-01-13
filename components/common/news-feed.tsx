@@ -27,7 +27,7 @@ const NEWS_DATA: NewsItem[] = [
         month: "Jul",
         day: "15",
         replies: 11,
-        image: "https://i.ibb.co/VYvPhN9d/candy-prison.webp",
+        image: "/page-img.webp",
         content: "Hey everyone! On behalf of the OPB Team, we are excited to release the newest and final Candycorn season! This brand new season was carefully beta tested by the most dedicated members of our community and should be a much smoother...",
         featured: true,
     },
