@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Hytale - SyncGames",
+    title: "Hysync - Hytale",
     description: "Hytale section of SyncGames.",
 };
 
-export default function MinecraftLayout({
+export default function HytaleLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;

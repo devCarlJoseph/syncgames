@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SyncGames",
+  title: "Hysync",
   description: "A game library synchronization tool.",
 };
 

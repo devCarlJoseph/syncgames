@@ -1,26 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --background: oklch(98% 0.01 80);
-  --foreground: oklch(25% 0.02 80);
-  --primary: oklch(85% 0.21 85);
-  --primary-foreground: oklch(20% 0.05 80);
-  --accent: oklch(70% 0.15 85);
-  --secondary: oklch(95.304% 0.03371 75.942);
+  --background: oklch(98% 0.01 230);
+  --foreground: oklch(25% 0.02 230);
+  --primary: oklch(70% 0.15 230);
+  /* Ice Blue */
+  --primary-foreground: oklch(20% 0.05 230);
+  --accent: oklch(50% 0.12 230);
+  /* Deep Arctic Blue */
+  --secondary: oklch(95% 0.03 230);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Dark Mode - Deep Stone & Gold (Matches the Image Background) */
-    --background: oklch(14% 0.01 250);
-    /* Deep Charcoal Stone */
-    --foreground: oklch(95% 0.01 80);
+    /* Dark Mode - Deep Arctic & Stone (Matches the Logo) */
+    --background: oklch(14% 0.01 230);
+    /* Deep Stone Charcoal */
+    --foreground: oklch(95% 0.01 230);
 
-    --primary: oklch(85% 0.21 85);
-    /* Glowing Yellow */
-    --accent: oklch(50% 0.12 85);
-    /* Deep Bronze/Gold */
-    --muted: oklch(25% 0.02 250);
+    --primary: oklch(75% 0.15 230);
+    /* Glowing Ice Blue */
+    --accent: oklch(40% 0.1 230);
+    /* Deep Stone Blue */
+    --muted: oklch(20% 0.02 230);
   }
 }
 
